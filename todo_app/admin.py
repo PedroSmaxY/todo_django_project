@@ -10,4 +10,3 @@ class UserAdmin(admin.ModelAdmin):
 @admin.register(Todo)
 class TodoAdmin(admin.ModelAdmin):
     list_display = ('title', 'description', 'isCompleted')
-
